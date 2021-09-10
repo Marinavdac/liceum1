@@ -1,105 +1,95 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 body {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: 400;
-    line-height: 2;
-    font-size: 2rem;
-    padding: 1rem;
-    box-sizing: border-box;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .header {
-    height: 95vh;
-    background-image: url('/Imagens/english-main-large.jpg');
-    filter: sepia(100%);
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    border-radius: 0,5%;
-   }
-
+  height: 95vh;
+  background-image: url("./Imagens/english-main-large.jpg");
+  filter: sepia(100%);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  border-radius: 0, 5%;
+}
 
 .main-nav {
-    display: flex;
-    list-style: none;
-    background-color: rgba(238, 236, 235, 0.452);
-    align-items: center;
-    margin: 0;
-    padding-left: 50px;
-    border-radius: 10px;
-    
+  display: flex;
+  list-style: none;
+  background-color: rgba(238, 236, 235, 0.452);
+  align-items: center;
+  margin: 0;
+  padding-left: 50px;
+  border-radius: 10px;
 }
 
 li {
-    padding: 10px;
-    width: 100%;
-    margin-left: auto;
-    
+  padding: 10px;
+  width: 100%;
+  margin-left: auto;
 }
 
 a {
-    text-decoration: none;
-    color:whitesmoke;
-    text-shadow: 2px 2px 4px #000000;
-    
-
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px #000000;
 }
 .middle-section {
-    margin: 25px 0px 75px;
-    height: 80vh;
-    background-image: url('/Imagens/amador-loureiro-BVyNlchWqzs-unsplash.jpg');
-    filter: sepia(100%);
-    clip-path: circle(30% at 50% 50%);
+  margin: 25px 0px 75px;
+  height: 80vh;
+  background-image: url("./Imagens/amador-loureiro-BVyNlchWqzs-unsplash.jpg");
+  filter: sepia(100%);
+  clip-path: circle(30% at 50% 50%);
 
-
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    border-radius: 0,5%;
-    padding: 50px;
-   }
-
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  border-radius: 0, 5%;
+  padding: 50px;
+}
 
 .grid-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
 }
 
 .box {
-    background-color: rgba(179, 102, 64, 0.76);
-    padding: 130px;
-    
+  background-color: rgba(179, 102, 64, 0.76);
+  padding: 130px;
 }
 
 .box > img {
-    width: 100%;
+  width: 100%;
 }
 
 .box:hover {
-    transform: scale3d(1, 1.5, 2);
+  transform: scale3d(1, 1.5, 2);
 }
 
 .box > img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
-
 footer {
-    text-align: center;
-    align-self: center;
-    text-decoration: none;
-    font-size: smaller;
-
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  font-size: smaller;
 }
 
 #print-footer {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
